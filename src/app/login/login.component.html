@@ -1,0 +1,38 @@
+
+
+ 
+<form #form="ngForm" (ngSubmit)="getData(form.value)"> 
+    
+   
+   
+     <h1>Login page</h1>
+    <input type="text" ngModel name="userName" placeholder="Enter the First Name"><br><br>
+    <input type="text" ngModel name="userLastName" placeholder="Enter the LastName"><br><br>
+    <input type="password"  ngModel name="userPass" placeholder="Enter the Password"><br><br>
+    <input type="email"  ngModel name="UserMail" placeholder="Enter the Email"> <br><br>
+    <input type="text"  ngModel name="userNumber" placeholder="Enter the mobile number"><br><br>
+    <input type="text"  ngModel name="Address" placeholder="Enter the address"><br><br>
+    <input type="date"   ngModel name="userDate"><br><br>
+   
+
+    <button>Submit</button>
+    
+
+</form>
+
+<h1>this is username:{{UserData.userName}}</h1>
+
+<h1>this is Last:{{UserData.userLastName}}</h1>
+
+
+
+<h1>this is userMail Id:{{UserData.UserMail}}</h1>
+
+<h1>this is userNumber:{{UserData.userNumber}}</h1>
+
+<h1>this is userAddress:{{UserData.Address}}</h1>
+<h1>this is userDate:{{UserData.userDate}}</h1>
+
+
+
+

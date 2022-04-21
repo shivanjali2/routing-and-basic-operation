@@ -1,0 +1,14 @@
+nav{
+ background-color:rebeccapurple;
+ text-align: right;
+ height: 40px;
+ padding-top: 20px;
+
+
+}
+a{
+    color: whitesmoke;
+    padding: 10px;
+    cursor: pointer;
+    
+}
